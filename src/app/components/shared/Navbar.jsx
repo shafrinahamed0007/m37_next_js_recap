@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ActiveLink from "./ActiveLink";
 
 const Navbar = () => {
     const navLinks = [
@@ -19,7 +20,7 @@ const Navbar = () => {
 
 const renderLinks = navLinks.map((link, index) => (
     <li key={index}>
-      <Link href={link.href}>{link.name}</Link>
+    <ActiveLink href={link.href}> {link.name}</ActiveLink>
     </li>
   ));
 
