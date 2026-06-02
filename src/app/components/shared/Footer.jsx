@@ -12,6 +12,7 @@ const Footer = () => {
             <Link href={'/about'} className="hover:text-purple-400 transition-colors">About</Link>
             <Link href={'/blogs'} className="hover:text-purple-400 transition-colors">Blogs</Link>
             <Link href={'/users'} className="hover:text-purple-400 transition-colors">Users</Link>
+            <Link href={'/posts'} className="hover:text-purple-400 transition-colors">Posts</Link>
           </nav>
           
           {/* 📱 সোশ্যাল আইকনস */}

@@ -18,6 +18,10 @@ const Navbar = () => {
         {
             name: "Users",
             href: "/users"
+        },
+        {
+            name: "Posts",
+            href: "/posts"
         }
     ];
 
